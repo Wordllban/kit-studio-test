@@ -1,0 +1,28 @@
+@use "../../assets/styles/colors.scss";
+
+.header {
+  width: 100%;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  padding: 0;
+
+  & > * {
+    display: block;
+    border-bottom: 3px solid colors.$background-default;
+    font-size: 24px;
+    font-weight: 600;
+  }
+}
+
+.active {
+  border-bottom: 3px solid colors.$purple-pink;
+}
+
+.link {
+  text-decoration: none;
+}

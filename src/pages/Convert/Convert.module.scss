@@ -1,0 +1,30 @@
+@use "../../assets/styles/colors.scss";
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  height: 90vh;
+
+  & > :not(:last-child) {
+    margin-bottom: 4rem;
+  }
+}
+
+.result {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.text {
+  font-size: 20px;
+  text-align: center;
+}
+
+.highlight {
+  color: colors.$purple-pink;
+}

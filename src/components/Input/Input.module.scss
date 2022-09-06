@@ -1,0 +1,22 @@
+@use "../../assets/styles/colors.scss";
+@use "../../assets/styles/mixins.scss";
+
+.input {
+  cursor: pointer;
+  width: 12em;
+
+  text-align: center;
+  font-size: 20px;
+
+  padding: 0.5rem 1rem;
+  @include mixins.border-default;
+  border-radius: 10px;
+
+  transition: all 0.3s ease-in-out;
+  &:hover,
+  &:focus {
+    box-shadow: 0 4px 15px 0 colors.$purple-shadow;
+  }
+  background-color: rgba(colors.$background-default, 0.6);
+  outline: 2px solid colors.$purple-shadow;
+}

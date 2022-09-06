@@ -27,7 +27,7 @@ export const getCurrencyConvert = async ({
 export const getCurrencyPrice = async (base: string) => {
   return (
     await http.get(
-      `https://api.apilayer.com/exchangerates_data/latest?symbols=NZD%2CAUD%2CSGD%2CBND%2CCAD%2CUSD%2CCHF%2CEUR%2CJOD%2CKWD&base=${base}`,
+      `https://api.apilayer.com/exchangerates_data/latest?symbols=NZD%2CAUD%2CSGD%2CBND%2CCAD%2CUSD%2CCHF%2CEUR%2CJOD%2CUAH&base=${base}`,
     )
   ).data;
 };

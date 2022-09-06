@@ -44,9 +44,6 @@ export const Convert: React.FC = () => {
     getCurrencyConvert(convertConfig).then((res) => setResult(res));
   };
 
-  console.log(inputValue);
-  console.log(convertConfig);
-
   return (
     <div className={styles.wrapper}>
       <Input

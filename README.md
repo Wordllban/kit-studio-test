@@ -6,5 +6,5 @@
 
 ## Get Started
 ### Go to the API and sign up
-### Create `.env` file, example: `REACT_APP_CURRENCY_API_KEY=YOUR_API_KEY`
+### Create `.env` file, which should contain: `REACT_APP_CURRENCY_API_KEY=YOUR_API_KEY`
 ### Run app with `yarn start`
